@@ -1,0 +1,22 @@
+#
+#Tue May 22 20:44:41 CST 2018
+genBasicCompId=true
+sessionFactoryName=
+profile=
+daoSFId=
+version=3.2
+jndiPath=
+detectM2M=false
+reStrategyClass=
+springDaoFile=
+useJavaTypes=true
+keyGenerator=uuid.hex
+libInstallFolder=/WebRoot/WEB-INF/lib
+addLibs2Project=true
+genVersionTag=false
+sessionFactoryId=
+basePersistenceClass=com.bean.BaseRecord
+reSettingsFile=
+configFile=/pushyun/src/hibernate.cfg.xml
+createConfigFile=false
+addLibs2Classpath=true

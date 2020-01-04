@@ -1,0 +1,9 @@
+[
+    {"name":"数据相关", "children":[
+        {"id":"data-domain", "name":"域名页面", "target":"navtab", "url":"html/domain/list.jsp"},
+        {"id":"base-users", "name":"用户页面", "target":"navtab", "url":"html/users/list.jsp"}
+    ]},
+    {"name":"报表相关", "children":[
+        {"id":"data-statistics", "name":"每日统计页面", "target":"navtab", "url":"html/statistics/list.jsp"}
+    ]}
+]

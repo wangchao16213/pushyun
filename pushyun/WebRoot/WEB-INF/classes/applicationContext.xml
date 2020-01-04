@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+	<bean id="com.bean.BusinessChannel"
+		class="com.common.service.impl.BaseServiceImpl" type="base">
+		<property name="hibernateConfigFile">
+			<value>/hibernate.cfg.xml</value>
+		</property>
+	</bean>
+	<bean id="com.bean.BusinessRule"
+		class="com.common.service.impl.BaseServiceImpl" type="base">
+		<property name="hibernateConfigFile">
+			<value>/hibernate.cfg.xml</value>
+		</property>
+	</bean>
+	<bean id="com.bean.BusinessRuleDetail"
+		class="com.common.service.impl.BaseServiceImpl" type="base">
+		<property name="hibernateConfigFile">
+			<value>/hibernate.cfg.xml</value>
+		</property>
+	</bean>
+	<bean id="com.bean.DataChannelLog"
+		class="com.common.service.impl.BaseServiceImpl" type="base">
+		<property name="hibernateConfigFile">
+			<value>/hibernate.cfg.xml</value>
+		</property>
+	</bean>
+	<bean id="com.bean.DataStatistics"
+		class="com.common.service.impl.BaseServiceImpl" type="base">
+		<property name="hibernateConfigFile">
+			<value>/hibernate.cfg.xml</value>
+		</property>
+	</bean>
+	<bean id="com.bean.ManageMenu"
+		class="com.common.service.impl.BaseServiceImpl" type="base">
+		<property name="hibernateConfigFile">
+			<value>/hibernate.cfg.xml</value>
+		</property>
+	</bean>
+	<bean id="com.bean.ManageUser"
+		class="com.common.service.impl.BaseServiceImpl" type="base">
+		<property name="hibernateConfigFile">
+			<value>/hibernate.cfg.xml</value>
+		</property>
+	</bean>
+	<bean id="com.bean.BusinessChannelCmd"
+		class="com.common.service.impl.BaseServiceImpl" type="base">
+		<property name="hibernateConfigFile">
+			<value>/hibernate.cfg.xml</value>
+		</property>
+	</bean>
+	<bean id="com.bean.BusinessChannelDaemon"
+		class="com.common.service.impl.BaseServiceImpl" type="base">
+		<property name="hibernateConfigFile">
+			<value>/hibernate.cfg.xml</value>
+		</property>
+	</bean>
+	<bean id="com.bean.LogRuleStatistics"
+		class="com.common.service.impl.BaseServiceImpl" type="base">
+		<property name="hibernateConfigFile">
+			<value>/hibernate.cfg.xml</value>
+		</property>
+	</bean>
+	<bean id="com.bean.LogSnifferStatistics"
+		class="com.common.service.impl.BaseServiceImpl" type="base">
+		<property name="hibernateConfigFile">
+			<value>/hibernate.cfg.xml</value>
+		</property>
+	</bean>
+	<bean id="com.bean.BusinessTask"
+		class="com.common.service.impl.BaseServiceImpl" type="base">
+		<property name="hibernateConfigFile">
+			<value>/hibernate.cfg.xml</value>
+		</property>
+	</bean>
+	<bean id="com.bean.BaseConfig"
+		class="com.common.service.impl.BaseServiceImpl" type="base">
+		<property name="hibernateConfigFile">
+			<value>/hibernate.cfg.xml</value>
+		</property>
+	</bean>
+	<bean id="com.bean.BusinessWhitelist"
+		class="com.common.service.impl.BaseServiceImpl" type="base">
+		<property name="hibernateConfigFile">
+			<value>/hibernate.cfg.xml</value>
+		</property>
+	</bean>
+	<bean id="com.bean.BusinessPushserver"
+		class="com.common.service.impl.BaseServiceImpl" type="base">
+		<property name="hibernateConfigFile">
+			<value>/hibernate.cfg.xml</value>
+		</property>
+	</bean>
+	<bean id="com.bean.BusinessDns"
+		class="com.common.service.impl.BaseServiceImpl" type="base">
+		<property name="hibernateConfigFile">
+			<value>/hibernate.cfg.xml</value>
+		</property>
+	</bean>
+	<bean id="com.module.data.service.DataStatisticsService" class="com.module.data.service.impl.DataStatisticsServiceImpl" type="bean">
+	</bean>
+	<bean id="com.common.service.SendService" class="com.common.service.impl.SendServiceImpl" type="bean">
+	</bean>
+	<bean id="com.module.data.service.ChannelLogService" class="com.module.data.service.impl.ChannelLogServiceImpl" type="bean">
+	</bean>
+	<bean id="com.module.business.service.ChannelCmdService" class="com.module.business.service.impl.ChannelCmdServiceImpl" type="bean">
+	</bean>
+	<bean id="com.module.business.service.RuleService" class="com.module.business.service.impl.RuleServiceImpl" type="bean">
+	</bean>
+	<bean id="com.module.business.service.DnsService" class="com.module.business.service.impl.DnsServiceImpl" type="bean">
+	</bean>
+</beans>

@@ -1,0 +1,4 @@
+1.用myeclipse 开发
+2.数据库使用mysql
+3.memcached存储部分数据
+4.activemq 用来日志的更新处理（不启动也不影响程序运行）
